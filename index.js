@@ -55,7 +55,7 @@ function getUser(id) {
     });
 }
 
-function getPosts(userId) {
+function getPosts() {
     return new Promise(resolve => {
         setTimeout(() => {
             resolve(["Post 1", "Post 2"]);
